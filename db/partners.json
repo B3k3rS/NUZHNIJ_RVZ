@@ -2,8 +2,8 @@
   {
     "name": "Пицца Плюс",
     "time_of_delivery": 50,
-    "stars": 4.5,
-    "price": 900,
+    "stars": 4.2,
+    "price": 800,
     "kitchen": "Пицца",
     "image": "img/pizza-plus.png",
     "products": "pizza-plus.json"

@@ -10,7 +10,7 @@ cartButton.addEventListener('click', function(event) {
 });
 
 for(i in closeBtns) {
-    closeBtns[i].addEventListener('click', function(event) {
+    closeBtns[i].addEventListener('click', () => {
         for (j in modalList) {
             try {
                 modalList[j].classList.remove('is-open');

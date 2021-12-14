@@ -27,7 +27,12 @@ let cart = [];
 let login = localStorage.getItem('gloDelivery');
 
 const getData = async function(url) {
-    const response = await fetch(url);
+    let response;
+    try {
+        response = await fetch(url);
+    } catch (e) {
+        console.log('Error: ' + e )
+    }
 
     if (!response.ok) {
         throw new Error(`Fetch address error ${url}, 
